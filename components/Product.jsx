@@ -3,7 +3,7 @@ import React from "react";
 import { urlFor } from "../lib/client";
 import { formatCurrency } from "../utilites/formatCurrency";
 
-const Product = ({ product: { slug, image, details, name, price } }) => {
+const Product = ({ product: { slug, image, name, price } }) => {
   return (
     <div>
       <Link href={`/product/${slug.current}`}>
